@@ -22,7 +22,7 @@ public class Wurstplus {
 	@Mod.Instance
 	private static Wurstplus MASTER;
 
-	public static final String WURSTPLUS_NAME = "Wurst+ 2";
+	public static final String WURSTPLUS_NAME = "Wurst+ 3";
 	public static final String WURSTPLUS_VERSION = "1.0";
 	public static final String WURSTPLUS_SIGN = " ";
 
@@ -66,7 +66,7 @@ public class Wurstplus {
 
 		send_minecraft_log("initialising guis");
 
-		Display.setTitle("Wurst+ 2");
+		Display.setTitle("Wurst+ 3");
 		click_gui = new WurstplusGUI();
 		click_hud = new WurstplusHUD();
 
