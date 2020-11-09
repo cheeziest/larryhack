@@ -490,7 +490,7 @@ public class WurstplusAutoCrystal extends WurstplusHack {
         }
 
         if (debug.get_value(true)) {
-            WurstplusMessageUtil.send_client_message("placing");
+            WurstplusMessageUtil.send_client_message("Minecraft.entity:Ender_crystal");
         }
 
         chain_step++;
