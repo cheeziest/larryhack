@@ -35,28 +35,28 @@ public class WurstplusChatSuffix extends WurstplusHack {
 	String[] random_client_name = {
 		"chad",
 		"tabott",
-		"travis",
-		"unco",
-		"kiwi",
-		"xdolf",
-		"eightsixfour",
-		"biggus",
-		"naughty",
-		"jumpy",
-		"chae",
+		"cheeziest",
+		"fortnite",
+		"pineapple",
+		"socks",
+		"cantdomath",
+		"boomer",
+		"cheeziest",
+		"gamer",
+		"client",
 		"wurst",
-		"buttfuhk"
+		"hack"
 	};
 
 	String[] random_client_finish = {
 		" plus",
 		" epic",
 		"god",
-		" sex",
-		" blue",
-		" brown",
-		" gay",
-		"plus",
+		" pog ",
+		" blue ",
+		" rainbow",
+		" cool",
+		"minus",
 		""
 	};
 
@@ -106,7 +106,7 @@ public class WurstplusChatSuffix extends WurstplusHack {
 		if (accept_suffix) {
 			if (suffix_default) {
 				// Just default.
-				message += Wurstplus.WURSTPLUS_SIGN + convert_base("wurstplus two");
+				message += Wurstplus.WURSTPLUS_SIGN + convert_base("cheezhack");
 			}
 
 			if (suffix_random) {
