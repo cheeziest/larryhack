@@ -66,7 +66,7 @@ public class Wurstplus {
 
 		send_minecraft_log("initialising guis");
 
-		Display.setTitle("Wurst+ 3");
+		Display.setTitle("cheezhack");
 		click_gui = new WurstplusGUI();
 		click_hud = new WurstplusHUD();
 
