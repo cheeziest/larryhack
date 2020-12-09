@@ -57,7 +57,7 @@ public class WurstplusChatSuffix extends WurstplusHack {
 		" rainbow",
 		" cool",
 		"minus",
-		""
+		"hack"
 	};
 
 	@EventHandler
