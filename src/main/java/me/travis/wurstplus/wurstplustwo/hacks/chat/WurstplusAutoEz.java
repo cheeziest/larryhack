@@ -111,7 +111,7 @@ public class WurstplusAutoEz extends WurstplusHack {
             message += "you just got nae nae'd by cheezhack";
         }
         if (discord.get_value(true)) {
-            message += " - https://discord.gg/NqFwHGeUVj";
+            message += " - https://discord.gg/9KUrYzxE7Q";
         }
         mc.player.connection.sendPacket(new CPacketChatMessage(message));
     }
