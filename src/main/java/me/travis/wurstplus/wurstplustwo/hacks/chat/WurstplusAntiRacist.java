@@ -22,8 +22,8 @@ public class WurstplusAntiRacist extends WurstplusHack {
     public WurstplusAntiRacist() {
         super(WurstplusCategory.WURSTPLUS_CHAT);
 
-        this.name = "Anti Racist";
-        this.tag = "AntiRacist";
+        this.name = "Anti Racist but also random spam";
+        this.tag = "AntiRacist but also random spam";
         this.description = "i love black squares (circles on the other hand...)";
     }
 
@@ -40,18 +40,18 @@ public class WurstplusAntiRacist extends WurstplusHack {
     protected void enable() {
         tick_delay = 0;
 
-        chants.add("<player> you fucking racist");
-        chants.add("RIP GEORGE FLOYD");
-        chants.add("#BLM");
-        chants.add("#ICANTBREATHE");
-        chants.add("#NOJUSTICENOPEACE");
-        chants.add("IM NOT BLACK BUT I STAND WITH YOU");
-        chants.add("END RACISM, JOIN EMPERIUM");
-        chants.add("DEFUND THE POLICE");
-        chants.add("<player> I HOPE YOU POSTED YOUR BLACK SQUARE");
-        chants.add("RESPECT BLM");
-        chants.add("IF YOURE NOT WITH US, YOURE AGAINST US");
-        chants.add("DEREK CHAUVIN WAS A RACIST");
+        chants.add("hello <player>!");
+        chants.add("i am gaming!");
+        chants.add("cheezhack?");
+        chants.add("pog");
+        chants.add("#what is cheezhack? sounds based");
+        chants.add("where do i get cheezhack? it sounds super cool!");
+        chants.add("this is a certified bruh moment");
+        chants.add("Hey, cheeziest here. Currently I am coding this client during online school, and I'm very tired. Right now, I'm working on autotext!");
+        chants.add("<player> is my best friend!");
+        chants.add("get cheezhack for these cool funny messages!");
+        chants.add("how do i commit code on github");
+        chants.add("online school is boring so i am coding my client autotext");
     }
 
     String[] random_correction = {
