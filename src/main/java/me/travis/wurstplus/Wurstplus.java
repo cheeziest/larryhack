@@ -22,8 +22,8 @@ public class Wurstplus {
 	@Mod.Instance
 	private static Wurstplus MASTER;
 
-	public static final String WURSTPLUS_NAME = "Wurst+ 3";
-	public static final String WURSTPLUS_VERSION = "1.0";
+	public static final String WURSTPLUS_NAME = "cheezhack";
+	public static final String WURSTPLUS_VERSION = "0.0";
 	public static final String WURSTPLUS_SIGN = " ";
 
 	public static final int WURSTPLUS_KEY_GUI = Keyboard.KEY_RSHIFT;
