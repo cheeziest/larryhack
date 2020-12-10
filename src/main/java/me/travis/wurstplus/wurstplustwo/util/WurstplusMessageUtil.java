@@ -27,15 +27,15 @@ public class WurstplusMessageUtil {
 	public static void toggle_message(WurstplusHack module) {
 		if (module.is_active()) {
 			if (module.get_tag().equals("AutoCrystal")) {
-				client_message_simple(opener + "we" + ChatFormatting.DARK_GREEN + " gaming ");
+				client_message_simple(opener + "ok now we" + ChatFormatting.DARK_GREEN + " gaming bro ");
 			} else {
-				client_message_simple(opener + r + module.get_name() + ChatFormatting.DARK_GREEN + " Enabled");
+				client_message_simple(opener + r + module.get_name() + ChatFormatting.DARK_GREEN + "has arisen");
 			}			
 		} else {
 			if (module.get_tag().equals("AutoCrystal")) {
-				client_message_simple(opener + "we aint" + ChatFormatting.RED + " gaming " + r + "no more");
+				client_message_simple(opener + "why did we stop" + ChatFormatting.RED + " gaming?");
 			} else {
-				client_message_simple(opener + r + module.get_name() + ChatFormatting.RED + " Disabled");
+				client_message_simple(opener + r + module.get_name() + ChatFormatting.RED + "is no more");
 			}
 		}
 	}
