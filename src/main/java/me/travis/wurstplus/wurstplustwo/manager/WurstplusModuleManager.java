@@ -43,6 +43,7 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusAnnouncer());
 
 		// Combat.
+		add_hack(new AntiRabbit());
 		add_hack(new WurstplusCriticals());
 		add_hack(new WurstplusKillAura());
 		add_hack(new WurstplusSurround());
