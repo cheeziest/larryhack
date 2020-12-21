@@ -29,13 +29,13 @@ public class WurstplusUser extends WurstplusPinnable {
 		String line;
 
 		if (time >= 0 && time < 12) {
-			line = "welcome to cheezhack, " + ChatFormatting.GOLD + ChatFormatting.BOLD + mc.player.getName() + ChatFormatting.RESET + "  :)";
+			line = "welcome to larryhack, " + ChatFormatting.GOLD + ChatFormatting.BOLD + mc.player.getName() + ChatFormatting.RESET + "  :)";
 		} else if (time >= 12 && time < 16) {
-			line = "welcome to cheezhack, " + ChatFormatting.GOLD + ChatFormatting.BOLD +  mc.player.getName() + ChatFormatting.RESET + "  :)";
+			line = "welcome to larryhack, " + ChatFormatting.GOLD + ChatFormatting.BOLD +  mc.player.getName() + ChatFormatting.RESET + "  :)";
 		} else if (time >= 16 && time < 24) {
-			line = "welcome to cheezhack, " + ChatFormatting.GOLD + ChatFormatting.BOLD +  mc.player.getName() + ChatFormatting.RESET + "  :)";
+			line = "welcome to larryhack, " + ChatFormatting.GOLD + ChatFormatting.BOLD +  mc.player.getName() + ChatFormatting.RESET + "  :)";
 		} else {
-			line = "welcome to cheezhack, " + ChatFormatting.GOLD + ChatFormatting.BOLD +  mc.player.getName() + ChatFormatting.RESET + "  :)";
+			line = "welcome to larryhack, " + ChatFormatting.GOLD + ChatFormatting.BOLD +  mc.player.getName() + ChatFormatting.RESET + "  :)";
 		}
 
 		mc.fontRenderer.drawStringWithShadow(line, scaled_width / 2f - mc.fontRenderer.getStringWidth(line) / 2f, 20f, new WurstplusDraw.TravisColor(nl_r,nl_g,nl_b,nl_a).hex());
