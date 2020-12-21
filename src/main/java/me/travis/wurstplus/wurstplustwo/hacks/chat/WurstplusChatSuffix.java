@@ -24,7 +24,7 @@ public class WurstplusChatSuffix extends WurstplusHack {
 	}
 
 	WurstplusSetting ignore = create("Ignore", "ChatSuffixIgnore", true);
-	WurstplusSetting type   = create("Type", "ChatSuffixType", "Default", combobox("Default", "Random"));
+	WurstplusSetting type   = create("Type", "ChatSuffixType", "Default", combobox("Default"));
 
 	boolean accept_suffix;
 	boolean suffix_default;
