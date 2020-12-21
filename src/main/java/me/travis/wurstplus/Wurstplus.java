@@ -22,7 +22,7 @@ public class Wurstplus {
 	@Mod.Instance
 	private static Wurstplus MASTER;
 
-	public static final String WURSTPLUS_NAME = "cheezhack";
+	public static final String WURSTPLUS_NAME = "larryhack";
 	public static final String WURSTPLUS_VERSION = "0.0";
 	public static final String WURSTPLUS_SIGN = " ";
 
