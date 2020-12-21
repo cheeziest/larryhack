@@ -27,15 +27,15 @@ public class WurstplusMessageUtil {
 	public static void toggle_message(WurstplusHack module) {
 		if (module.is_active()) {
 			if (module.get_tag().equals("AutoCrystal")) {
-				client_message_simple(opener + a "autocrystal" + ChatFormatting.DARK_GREEN + " POG! ");
+				client_message_simple(opener + a "larry has " + ChatFormatting.DARK_GREEN + " awakened! ");
 			} else {
-				client_message_simple(opener + b + module.get_name() + ChatFormatting.DARK_GREEN + " is now ready to rumble");
+				client_message_simple(opener + b + module.get_name() + ChatFormatting.DARK_GREEN + "has been called on by larry");
 			}			
 		} else {
 			if (module.get_tag().equals("AutoCrystal")) {
-				client_message_simple(opener + a + "no more autocrystal" + ChatFormatting.RED + " rip ");
+				client_message_simple(opener + a + "larry's wrath has been" + ChatFormatting.RED + " stopped ");
 			} else {
-				client_message_simple(opener + b + module.get_name() + ChatFormatting.RED + " stopped gaming");
+				client_message_simple(opener + b + module.get_name() + ChatFormatting.RED + " has been put to sleep by larry");
 			}
 		}
 	}
