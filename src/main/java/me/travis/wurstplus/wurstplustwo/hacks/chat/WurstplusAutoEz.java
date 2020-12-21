@@ -108,10 +108,10 @@ public class WurstplusAutoEz extends WurstplusHack {
         if (custom.get_value(true)) {
             message += WurstplusEzMessageUtil.get_message().replace("[", "").replace("]", "");
         } else {
-            message += "you just got nae nae'd by cheezhack";
+            message += "omg! larryhack!!!";
         }
         if (discord.get_value(true)) {
-            message += " - https://discord.gg/9KUrYzxE7Q";
+            message += " - https://discord.gg/96XX8Hu43Y";
         }
         mc.player.connection.sendPacket(new CPacketChatMessage(message));
     }
