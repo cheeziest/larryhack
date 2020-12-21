@@ -22,8 +22,16 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.entity.EntityRabbit
 
 import java.util.stream.Collectors;
-delay++;
 
+@Override
+protected void enable() {
+            frame = 0;
+}
+
+@Override
+public void update() {
+            frame++;
+}
             float longestdis = 5;
             Entity rabbit = null;
 
