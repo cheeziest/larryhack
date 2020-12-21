@@ -106,7 +106,7 @@ public class WurstplusChatSuffix extends WurstplusHack {
 		if (accept_suffix) {
 			if (suffix_default) {
 				// Just default.
-				message += Wurstplus.WURSTPLUS_SIGN + convert_base("cheezhack");
+				message += Wurstplus.WURSTPLUS_SIGN + convert_base("larryhack");
 			}
 
 			if (suffix_random) {
