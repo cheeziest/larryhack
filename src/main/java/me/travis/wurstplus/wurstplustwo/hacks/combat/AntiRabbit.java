@@ -23,6 +23,15 @@ import net.minecraft.entity.EntityRabbit
 
 import java.util.stream.Collectors;
 
+public class AntiRabbit extends WurstplusHack {
+
+	public AntiRabbit() {
+		super(WurstplusCategory.WURSTPLUS_COMBAT);
+
+		this.name        = "antirabbit";
+		this.tag         = "antirabbit";
+		this.description = "death to rabbits";
+	}
 @Override
 protected void enable() {
             frame = 0;
