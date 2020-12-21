@@ -32,15 +32,16 @@ public class AntiRabbit extends WurstplusHack {
 		this.tag         = "antirabbit";
 		this.description = "death to rabbits";
 	}
-@Override
-protected void enable() {
+	
+int frame = 0;
+	@Override
+	protected void enable() {
             frame = 0;
-}
-
-@Override
-public void update() {
+	}
+	@Override
+	public void update() {
             frame++;
-}
+		
             float longestdis = 5;
             Entity rabbit = null;
 
