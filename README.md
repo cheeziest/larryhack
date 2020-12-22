@@ -1,5 +1,6 @@
-# cheezhack
-#### (for real this time)
+# larryhack TM 
+#### custom client for larry the absolute unit
 
-awesome client 
+gui and base skidded from w+2, added cool new modules
 
+done for the clout
