@@ -77,14 +77,14 @@ public class WurstplusAutoCrystal extends WurstplusHack {
     WurstplusSetting anti_stuck = create("Anti Stuck", "CaAntiStuck", false);
     WurstplusSetting endcrystal = create("1.13 Mode", "CaThirteen", false);
 
-    WurstplusSetting faceplace_mode = create("Tabbott Mode", "CaTabbottMode", true);
-    WurstplusSetting faceplace_mode_damage = create("T Health", "CaTabbottModeHealth", 8, 0, 36);
+    WurstplusSetting faceplace_mode = create("faceplace", "CaTabbottMode", true);
+    WurstplusSetting faceplace_mode_damage = create("faceplace health", "CaTabbottModeHealth", 8, 0, 36);
 
     WurstplusSetting fuck_armor_mode = create("Armor Destroy", "CaArmorDestory", true);
     WurstplusSetting fuck_armor_mode_precent = create("Armor %", "CaArmorPercent", 25, 0, 100);
 
     WurstplusSetting stop_while_mining = create("Stop While Mining", "CaStopWhileMining", false);
-    WurstplusSetting faceplace_check = create("No Sword FP", "CaJumpyFaceMode", false);
+    WurstplusSetting faceplace_check = create("no sword faceplace", "CaJumpyFaceMode", false);
 
     WurstplusSetting swing = create("Swing", "CaSwing", "Mainhand", combobox("Mainhand", "Offhand", "Both", "None"));
 
