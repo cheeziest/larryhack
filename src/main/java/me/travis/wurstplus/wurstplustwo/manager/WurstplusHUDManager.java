@@ -13,6 +13,8 @@ public class WurstplusHUDManager {
 
 	public WurstplusHUDManager() {
 
+		add_component_pinnable(new XCoordinates());
+		add_component_pinnable(new ZCoordinates());
 		add_component_pinnable(new WurstplusWatermark());
 		add_component_pinnable(new WurstplusArrayList());
 		add_component_pinnable(new WurstplusCoordinates());
