@@ -19,7 +19,7 @@ import net.minecraft.network.play.client.CPacketPlayerDigging;
 import net.minecraft.network.play.client.CPacketUseEntity;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.entity.EntityRabbit
+import net.minecraft.entity.EntityRabbit;
 
 import java.util.stream.Collectors;
 
