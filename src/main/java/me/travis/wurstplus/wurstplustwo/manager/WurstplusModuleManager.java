@@ -75,7 +75,8 @@ public class WurstplusModuleManager {
 
 		// Movement.
 		add_hack(new WurstplusStrafe());
-		add_hack(new WurstplusStep());
+		add_hack(new WurstplusStep1());
+		add_hack(new WurstplusStep2());
 		add_hack(new WurstplusSprint());
 		add_hack(new WurstPlusAnchor());
 		
