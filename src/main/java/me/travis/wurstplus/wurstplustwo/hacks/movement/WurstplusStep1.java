@@ -11,8 +11,8 @@ public class WurstplusStep extends WurstplusHack {
     public WurstplusStep() {
         super(WurstplusCategory.WURSTPLUS_MOVEMENT);
 
-		this.name        = "Step";
-		this.tag         = "Step";
+		this.name        = "Step1";
+		this.tag         = "Step1";
 		this.description = "Move up / down block big";
     }
 
