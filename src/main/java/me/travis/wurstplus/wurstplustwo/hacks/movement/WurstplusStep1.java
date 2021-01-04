@@ -6,9 +6,9 @@ import me.travis.wurstplus.wurstplustwo.hacks.WurstplusHack;
 import net.minecraft.network.play.client.CPacketPlayer;
 import net.minecraft.util.math.AxisAlignedBB;
 
-public class WurstplusStep extends WurstplusHack {
+public class WurstplusStep1 extends WurstplusHack {
     
-    public WurstplusStep() {
+    public WurstplusStep1() {
         super(WurstplusCategory.WURSTPLUS_MOVEMENT);
 
 		this.name        = "Step1";
