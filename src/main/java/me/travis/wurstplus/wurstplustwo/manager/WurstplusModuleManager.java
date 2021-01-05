@@ -92,7 +92,6 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusTracers());
 		add_hack(new WurstplusSkyColour());
 		add_hack(new WurstplusChams());
-		add_hack(new WurstplusCapes());
 		add_hack(new WurstplusAlwaysNight());
 		add_hack(new WurstplusCityEsp());
 
