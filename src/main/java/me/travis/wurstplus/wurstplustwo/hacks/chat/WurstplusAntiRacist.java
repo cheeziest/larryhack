@@ -40,22 +40,22 @@ public class WurstplusAntiRacist extends WurstplusHack {
     protected void enable() {
         tick_delay = 0;
 
-        chants.add("<player> is doomed by larry!");
-        chants.add("larry is gaming...");
+        chants.add("<player>, have you subbed to larry yet?");
+        chants.add("gamer moment");
         chants.add("larryhack strong");
-        chants.add("larry");
+        chants.add("larry the absolute unit on top");
         chants.add("larryhack based");
         chants.add("larry is love. larry is life");
         chants.add("this is a certified bruh moment");
         chants.add("larryhack!");
-        chants.add("Watch out, <player>, larry is coming!");
+        chants.add("Watch out, <player>, larryhack is coming for you");
         chants.add("LARRY!");
         chants.add("larry moment");
-        chants.add("larry is coming...");
+        chants.add("larryhack is coming...");
     }
 
     String[] random_correction = {
-            "<Insert nword word here>",
+            "<nerd>",
     };
 
 
