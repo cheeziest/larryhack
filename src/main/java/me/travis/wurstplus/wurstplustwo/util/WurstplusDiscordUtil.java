@@ -35,8 +35,8 @@
 //        DiscordRPC.discordUpdatePresence(presence);
 //
 //        presence.startTimestamp = System.currentTimeMillis() / 1000; // epoch second
-//        presence.details = "Vibin' RN. NR";
-//        presence.state = "Wurstplus Two";
+//        presence.details = "ezing nubs";
+//        presence.state = "larryhack";
 //        presence.largeImageKey = "large";
 //
 //        new Thread(() ->
@@ -48,12 +48,12 @@
 //                    players = 0;
 //                    maxPlayers = 0;
 //                    if (mc.isIntegratedServerRunning()) {
-//                        details = "on his tod";
+//                        details = ".-.";
 //                    }
 //                    else if (mc.getCurrentServerData() != null) {
 //                        svr = mc.getCurrentServerData();
 //                        if (!svr.serverIP.equals("")) {
-//                            details = "with the fellas";
+//                            details = "with the bois";
 //                            state = svr.serverIP;
 //                            if (svr.populationInfo != null) {
 //                                popInfo = svr.populationInfo.split("/");
@@ -65,8 +65,8 @@
 //                        }
 //                    }
 //                    else {
-//                        details = "Vibin' RN. NR";
-//                        state = "Listening to mr. worldwide";
+//                        details = "Vibin' ";
+//                        state = "vibin";
 //                    }
 //                    if (!details.equals(presence.details) || !state.equals(presence.state)) {
 //                        presence.startTimestamp = System.currentTimeMillis() / 1000L;
