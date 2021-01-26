@@ -72,7 +72,7 @@ public class WurstplusAnnouncer extends WurstplusHack {
         if (mc.world == null) return;
 
         if (event.get_packet() instanceof SPacketUseBed) {
-            queue_message("I am going to bed now, goodnight");
+            queue_message("goodnight");
         }
     });
 
@@ -183,7 +183,7 @@ public class WurstplusAnnouncer extends WurstplusHack {
     private void send_message(String s) {
         if (suffix.get_value(true)) {
             String i = " \u2763 ";
-            s += i + Wurstplus.smoth("sponsored by wurstplus two");
+            s += i + Wurstplus.smoth("sponsored by larryhack");
         }
         if (smol.get_value(true)) {
             s = Wurstplus.smoth(s.toLowerCase());
